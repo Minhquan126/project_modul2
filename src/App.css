@@ -1,12 +1,54 @@
 .App {
   text-align: center;
 }
-
+.search-input {
+  display: flex;
+  background-color: aliceblue;
+}
+.listCart {
+  display: flex;
+  justify-content: center;
+}
+.form-control {
+  width: 300;
+  border: none;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+.tick-container {
+  position: relative;
+}
+.tick {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  border-radius: 50%;
+  line-height: 25px;
+  text-align: center;
+  position: absolute;
+  color: white;
+  top: 0px;
+  left: 80px;
+}
+.card-img-top {
+  width: 60px;
+}
+.image-upload {
+  width: 200px;
+}
+.cloth-container {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
 
+}
+.cart-container {
+  display: flex;
+  justify-content: center;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
